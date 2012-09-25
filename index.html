@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="title" content="cautoPrettify.js Sample">
+  <meta name="author" content="Takeharu.Oshida">
+  <meta name="email" content="georgeosddev@email.com">
+  <meta name="description" content="sample of autoPrettify.js on github-pages.">
+  <meta name="keywords" content="prettify,source highlight,CDN,Source Code Pro,george_osd">
+  <title>autoPrettify.js Sample</title>
+  <script src="http://georgeosddev.github.com/autoPrettify.js/autoPrettify.min.js" type="text/javascript" charset="utf-8"></script>
+  <style type="text/css">
+    body {
+      margin-top:40px;
+      font-family: arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+    <a id="githubribbon" href="https://github.com/georgeosddev/autoPrettify.js" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+  <header>
+    <h2>autoPrettify.js Sample</h2>
+    <p><a href="https://github.com/georgeosddev/autoPrettify.js" target="_blank">autoPrettify.js</a> is a wrapper for <a href="http://code.google.com/p/google-code-prettify/" target="_blank">prettify.{js|css}</a>.</p>
+    <p>prettify.{js|css} is very good tool, bat it needs some step to highlight syntax. So autoPrettify.js help it's step automatically.</p>   
+  </header>
+ 
+  <br>
+  <article>
+  <h3>Usage</h3>
+  <p>just include this script on head tag with this one line.</p>
+<pre>
+&lt;script src="http://georgeosddev.github.com/autoPrettify.js/autoPrettify.min.js"&gt;
+</pre>
+  <p>It automatically apply prettify.{js|css} at each &lt;pre&gt; tags and &lt;code&gt; tags with Adobe's <a href="http://blogs.adobe.com/typblography/2012/08/source-sans-pro.html" target="_blank">Source Code Pro</a> font.</p>
+  </article>
+    
+  <br>
+  <article>
+    <h3>Sample</h3>
+    <p>&lt;pre&gt;Tag sample</p>
+    <pre>
+import java.util.*
+public static void main(String[] args){
+  String msg = "Hello World!"
+  System.out.println(msg);
+}
+</pre>
+    <p>&lt;code&gt;Tag sample</p>
+    <code>
+function foo(){
+  var msg = "Hello World!"
+  console.log(msg);
+}
+</code>    
+  </article>
+
+  <br>
+  <article>
+  <h3>Licence</h3>
+  <p>autoPrettify.js is licenced under <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>.</p>
+  <p>And prettify.{js|css} is licenced under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a></p>
+  </article>
+
+  <br>
+  <hr>
+  <footer>
+    <p>Developed by <a href="http://about.me/takeharu.oshida" target="_blank" title="about me">Takeharu.Oshida</a><br>
+    Source code can be found on <a href="https://github.com/georgeOsdDev/autoPrettify.js" target="_blank">github</a>, licenced under <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>.</p>
+  </footer><!-- /foot -->
+
+<script>var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15502477-10']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>
