@@ -1,7 +1,7 @@
 (function(){
   // __name space__
   window.autoPrettify = {
-    cdn:"https://raw.github.com/georgeOsdDev/autoPrettify.js/master",
+    cdn:"http://georgeosddev.github.com/autoPrettify.js",
     jQueryTimerId:"",
     prettifyTimerId:""
   }
